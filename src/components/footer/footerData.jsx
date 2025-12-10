@@ -1,3 +1,4 @@
+// FooterData.jsx
 import { Facebook, Twitter, Instagram, Linkedin } from "lucide-react";
 
 export const services = [

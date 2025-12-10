@@ -13,7 +13,7 @@ export const MenuItems = ({ isMobile = false, onClick }) => {
       {menuLinks.map((link) => (
         <p
           key={link}
-          className="hover:text-blue-400 transition cursor-pointer"
+          className="hover:text-[#53AAA4] transition cursor-pointer"
           onClick={onClick}
         >
           {link}
