@@ -1,17 +1,27 @@
 // components/works/WorksGrid.jsx
 import React, { useRef, useEffect, useState } from "react";
 import { motion, AnimatePresence } from "framer-motion";
+import img16 from "../../assest/16.jpg";
+import img17 from "../../assest/17.jpg";
+import img18 from "../../assest/18.jpg";
+import img19 from "../../assest/19.jpg";
+import img20 from "../../assest/20.jpg";
+import img21 from "../../assest/21.jpg";
+import img22 from "../../assest/22.jpg";
+import img23 from "../../assest/23.jpg";
+
+
 
 /* ---------- Dummy Work Data ---------- */
 const WORKS = [
-  { id: 1, client: "Aurora Tech", location: "Pune, Maharashtra", image: "/images/project-aurora.jpg", href: "#" },
-  { id: 2, client: "Bluewave Retail", location: "Jaipur, Rajasthan", image: "/images/project-bluewave.jpg", href: "#" },
-  { id: 3, client: "Crest Logistics", location: "Guwahati, Assam", image: "/images/project-crest.jpg", href: "#" },
-  { id: 4, client: "Dharma Foods", location: "Lucknow, Uttar Pradesh", image: "/images/project-dharma.jpg", href: "#" },
-  { id: 5, client: "Elara Health", location: "Bengaluru, Karnataka", image: "/images/project-elara.jpg", href: "#" },
-  { id: 6, client: "Fable Media", location: "Kolkata, West Bengal", image: "/images/project-fable.jpg", href: "#" },
-  { id: 7, client: "Greenfield Farms", location: "Indore, Madhya Pradesh", image: "/images/project-greenfield.jpg", href: "#" },
-  { id: 8, client: "Horizon Finance", location: "Mumbai, Maharashtra", image: "/images/project-horizon.jpg", href: "#" },
+  { id: 1, client: "Aurora Tech", location: "Pune, Maharashtra", image: img16, href: "#" },
+  { id: 2, client: "Bluewave Retail", location: "Jaipur, Rajasthan", image: img17, href: "#" },
+  { id: 3, client: "Crest Logistics", location: "Guwahati, Assam", image: img18, href: "#" },
+  { id: 4, client: "Dharma Foods", location: "Lucknow, Uttar Pradesh", image: img19, href: "#" },
+  { id: 5, client: "Elara Health", location: "Bengaluru, Karnataka", image: img20, href: "#" },
+  { id: 6, client: "Fable Media", location: "Kolkata, West Bengal", image: img21, href: "#" },
+  { id: 7, client: "Greenfield Farms", location: "Indore, Madhya Pradesh", image: img22, href: "#" },
+  { id: 8, client: "Horizon Finance", location: "Mumbai, Maharashtra", image: img23, href: "#" },
 ];
 
 /* ---------- Card (used inside grid and marquee) ---------- */
