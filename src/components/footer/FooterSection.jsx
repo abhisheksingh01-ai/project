@@ -1,4 +1,3 @@
-// FooterSection.jsx
 import FooterLink from "./FooterLink";
 
 export default function FooterSection({ title, items }) {
