@@ -1,10 +1,9 @@
 import Footer from "./components/footer/Footer";
 import Navbar from "./components/navbar/Navbar";
 import HeroHeader from "./components/header/HeroHeader";
-import ServicesLanding from "./components/servicePage/ServicesLanding";
-import RecentWork from "./components/recentClientWork/RecentWork";
-import ContactSection from "./components/contactFormHome/ContactSection";
-import PortfolioLanding from "./components/portfolioHome/PortfolioLanding";
+import ServicesLanding from "./components/services/ServicesLanding";
+import RecentWork from "./components/works/RecentWork"
+import ContactSection from "./components/contact/ContactSection";
 
 export default function App() {
   return (
@@ -13,7 +12,6 @@ export default function App() {
       <HeroHeader />
       <ServicesLanding />
       <RecentWork />
-      <PortfolioLanding />
       <ContactSection />
       <Footer />
     </>

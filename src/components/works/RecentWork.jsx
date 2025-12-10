@@ -1,5 +1,3 @@
-// components/works/RecentWork.jsx
-import React from "react";
 import WorksHeading from "./WorksHeading";
 import WorksGrid from "./WorksGrid";
 
