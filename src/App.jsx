@@ -17,7 +17,7 @@ export default function App() {
     <RecentWork />
     {/* <PortfolioCarousel /> */}
     <PortfolioLanding />
-    < ContactSection />
+    < ContactSection />   
     <Footer />
     
     {/* <Footer/> */}
