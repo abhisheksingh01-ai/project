@@ -11,9 +11,9 @@ export default function App() {
       <Navbar />
       <HeroHeader />
       <ServicesLanding />
-      <RecentWork />
+      <RecentWork />   
       <ContactSection />
       <Footer />
     </>
   );
-}
+}   
